@@ -1,11 +1,12 @@
 # BS49903 — Data Science and AI for Biology
 
-**Lecturer:** [Lecturer name, affiliation]
-**Contact:** [email]
-**Term / Institution:** [e.g. Fall 2026, Department of ...]
+[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/)
 
-Course materials for BS49903, *Data Science and AI for Biology* (DSAI for Biology):
-[one or two sentences describing what the course covers and who it is for].
+**Lecturer:** Alex Bae, Department of Biological Sciences, KAIST
+**Contact:** jalexbae@kaist.ac.kr
+**Term / Institution:** Fall 2026, Department of Biological Sciences, KAIST
+
+Course materials for BS49903, *Data Science and AI for Biology* (DSAI for Biology).
 
 All code in this course is written for **Python 3.12**.
 
@@ -87,16 +88,7 @@ sure the kernel in the top-right corner is set to **Python 3.12 (dsai-bio)**.
 
 ## Required packages
 
-| Package | Purpose |
-| --- | --- |
-| numpy | Array and matrix computation |
-| scipy | Scientific computing, signal processing, statistics |
-| pandas | Tabular data handling |
-| tifffile | Reading and writing TIFF images and image stacks |
-| scikit-learn | Machine learning |
-| matplotlib | Plotting |
-| seaborn | Statistical plotting |
-| notebook | Jupyter Notebook interface |
+numpy, scipy, pandas, tifffile, scikit-learn, matplotlib, seaborn, notebook.
 
 Exact version requirements are listed in [`requirements.txt`](requirements.txt).
 
@@ -156,4 +148,4 @@ conda env remove -n dsai-bio
 
 ## License
 
-[e.g. MIT for code, CC BY 4.0 for course materials]
+MIT for code, CC BY 4.0 for course materials.
