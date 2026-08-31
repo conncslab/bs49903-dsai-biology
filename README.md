@@ -142,7 +142,11 @@ launching Jupyter.
 ```bash
 conda deactivate
 conda env remove -n dsai-bio
+jupyter kernelspec uninstall dsai-bio
 ```
+
+The last line removes the Jupyter kernel entry. Without it, **Python 3.12 (dsai-bio)**
+keeps appearing in the kernel menu even though the environment it points to is gone.
 
 ---
 
