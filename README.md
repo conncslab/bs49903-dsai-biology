@@ -1,8 +1,9 @@
 # BS49903 — Data Science and AI for Biology
 
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/)
+![Last commit](https://img.shields.io/github/last-commit/conncslab/bs49903-dsai-biology)
 
-**Lecturer:** Alex Bae, Department of Biological Sciences, KAIST<br>
+**Lecturer:** Alex Bae<br>
 **Contact:** jalexbae@kaist.ac.kr<br>
 **Term / Institution:** Fall 2026, Department of Biological Sciences, KAIST
 
@@ -118,9 +119,9 @@ git pull
 bs49903-dsai-biology/
 ├── README.md
 ├── requirements.txt
-├── notebooks/        # Lecture notebooks
-├── data/             # Example datasets
-└── solutions/        # Exercise solutions
+└── week01/           # One folder per week: notebooks and their data
+    ├── kmeans.ipynb
+    └── iris_data.csv
 ```
 
 ---
