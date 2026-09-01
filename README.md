@@ -1,4 +1,4 @@
-# BS49903 — Data Science and AI for Biology
+# BS49903 Data Science and AI for Biology
 
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/)
 ![Last commit](https://img.shields.io/github/last-commit/conncslab/bs49903-dsai-biology)
@@ -7,7 +7,7 @@
 **Contact:** jalexbae@kaist.ac.kr<br>
 **Term / Institution:** Fall 2026, Department of Biological Sciences, KAIST
 
-Course materials for BS49903, *Data Science and AI for Biology* (DS/AI for Biology).
+Course materials for BS49903 Data Science and AI for Biology (DS/AI for Biology).
 
 All code in this course is written for **Python 3.12**.
 
@@ -89,9 +89,7 @@ sure the kernel in the top-right corner is set to **Python 3.12 (dsai-bio)**.
 
 ## Required packages
 
-numpy, scipy, pandas, tifffile, scikit-learn, matplotlib, seaborn, notebook.
-
-Exact version requirements are listed in [`requirements.txt`](requirements.txt).
+Required packages and exact version requirements are listed in [`requirements.txt`](requirements.txt).
 
 ---
 
