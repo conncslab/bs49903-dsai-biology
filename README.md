@@ -11,6 +11,10 @@ Course materials for BS49903 Data Science and AI for Biology (DS/AI for Biology)
 
 All code in this course is written for **Python 3.12**.
 
+**Questions?** Post them in
+[Discussions](https://github.com/conncslab/bs49903-dsai-biology/discussions) so the whole
+class can see the answer, or email me. See [Asking questions](#asking-questions).
+
 ---
 
 ## Setup
@@ -70,6 +74,9 @@ Same command on both platforms:
 pip install -r requirements.txt
 ```
 
+The full list, with exact version requirements, is in
+[`requirements.txt`](requirements.txt).
+
 ### 4. Register the environment as a Jupyter kernel
 
 ```bash
@@ -84,12 +91,6 @@ jupyter notebook
 
 This opens Jupyter in your browser. Open any notebook from this repository and make
 sure the kernel in the top-right corner is set to **Python 3.12 (dsai-bio)**.
-
----
-
-## Required packages
-
-Required packages and exact version requirements are listed in [`requirements.txt`](requirements.txt).
 
 ---
 
@@ -111,16 +112,24 @@ git pull
 
 ---
 
-## Repository structure
+## Asking questions
 
-```
-bs49903-dsai-biology/
-├── README.md
-├── requirements.txt
-└── week01/           # One folder per week: notebooks and their data
-    ├── kmeans.ipynb
-    └── iris_data.csv
-```
+Course questions go to
+[**Discussions**](https://github.com/conncslab/bs49903-dsai-biology/discussions).
+
+| Category | Use it for |
+| --- | --- |
+| **General Q&A** | Lectures, setup problems, anything about the course |
+| **Assignment Q&A** | Assignments — describe what you tried; don't post full solutions |
+| **Final project Q&A** | Project scope, data, and methods |
+
+Search the existing threads first — someone has usually hit the same error. When you
+post, paste code and error messages as text rather than screenshots, so that others
+can search and copy them.
+
+You are also welcome to email me at [jalexbae@kaist.ac.kr](mailto:jalexbae@kaist.ac.kr).
+Discussions is the better place for anything the rest of the class might also be
+wondering about, since everyone can read the answer.
 
 ---
 
