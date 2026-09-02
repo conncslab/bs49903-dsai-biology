@@ -13,6 +13,7 @@ env/
 
 # Jupyter
 .ipynb_checkpoints/
+*.ipynb
 
 # Editors / IDEs
 .vscode/
@@ -21,3 +22,4 @@ env/
 
 # Secrets
 .env
+
