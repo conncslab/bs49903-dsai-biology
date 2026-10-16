@@ -9,6 +9,8 @@ pandas>=2.1
 # Image I/O (TIFF stacks)
 tifffile>=2023.9.26
 imagecodecs>=2023.9.18   # optional but recommended: compressed TIFF support
+scikit-image>=0.22       # Week 7: skimage.data / io / exposure
+pooch>=1.8               # Week 7: downloads skimage sample images (e.g. data.cell())
 
 # Machine learning
 scikit-learn>=1.3
