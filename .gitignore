@@ -22,3 +22,8 @@ env/
 # Secrets
 .env
 
+# Generated outputs (never commit)
+week12/demo/dapi_cutout.tif
+# Cellpose GUI segmentation outputs and trained models (models are too large for GitHub)
+*_seg.npy
+week12/demo/models/
