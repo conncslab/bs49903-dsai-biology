@@ -135,16 +135,6 @@ wondering about, since everyone can read the answer.
 
 ## Troubleshooting
 
-**`conda: command not found`** — On Windows, use the Anaconda Prompt. On macOS, run
-`conda init zsh` and restart the Terminal.
-
-**`git: command not found`** — Install Git from https://git-scm.com/downloads
-(macOS users can also run `xcode-select --install`).
-
-**Notebook can't import a package** — Check that the kernel is set to
-**Python 3.12 (dsai-bio)** and that `conda activate dsai-bio` was run before
-launching Jupyter.
-
 **Removing the environment and starting over:**
 
 ```bash
